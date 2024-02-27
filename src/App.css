@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+ */
+ #root {
+  background-color: #333;
+ }
+.container {
+  outline: 2px solid white;
+  max-height: 80vh; width: 50vw;
+}
+ img {
+  width: 100%;
+  height: inherit;
+  object-fit: contain;
+ }

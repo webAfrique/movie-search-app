@@ -1,3 +1,17 @@
+import { useState } from 'react'
+
+import Hero from './components/Hero'
+import './App.css'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container  from 'react-bootstrap/Container'
+import Row  from 'react-bootstrap/Row'
+import Col  from 'react-bootstrap/Col'
+
+
+function App() {
+  const [count, setCount] = useState(0)
+
 import React, { ReactNode, useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import axios from 'axios';
